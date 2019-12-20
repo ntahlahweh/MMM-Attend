@@ -4,13 +4,6 @@ from io import open
 import sys
 import os
 import json
-
-from __future__ import print_function
-from datetime import datetime
-from io import open
-import sys
-import os
-import json
 sys.path.append("zk")
 from zk import ZK, const
 file_name = '/home/pi/MagicMirror/modules/MMM-Attend/new_attend.txt'    #previous latest attendance
@@ -22,10 +15,9 @@ cur_data = 0
 def staff_name(staff_id):
     
     if staff_id == 0001:
-        Sname = "Test1"
-	elif staff_id == 0002:
-		Sname = "Test2"
-    
+		Sname = "Test"
+    elif staff_id == 2:
+        Sname = "ADMIN"
     else:
         Sname = "New staff, please register"
     return Sname
