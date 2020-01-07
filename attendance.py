@@ -20,48 +20,10 @@ class ProgramKilled(Exception):
 
 def foo():
     def staff_name(staff_id):
-        if staff_id == 1017:
-            Sname = "Muhammad Faris"
-        elif staff_id == 1014:
-            Sname = "Hani Izzati"
-        elif staff_id == 1009:
-            Sname = "Norwizana"
-        elif staff_id == 2:
-            Sname = "ADMIN"
-        elif staff_id == 1007:
-            Sname = "Siti Norfatiha"
-        elif staff_id == 1040:
-            Sname = "Nur Izzati"
-        elif staff_id == 1037:
-            Sname = "Muhammad Hafiz"
+        if staff_id == 1000:
+            Sname = "Test1"
         elif staff_id == 1001:
-            Sname = "Dr. Abdul Rahman"
-        elif staff_id == 1029:
-            Sname = "Mohd Hazizi"
-        elif staff_id == 1011:
-            Sname = "Adi Effendi"
-        elif staff_id == 1033:
-            Sname = "Muhammad Asyraf"
-        elif staff_id == 1006:
-            Sname = "Muhammad Nur Azizi"
-        elif staff_id == 1005:
-            Sname = "Nurul Saadah"
-        elif staff_id == 1020:
-            Sname = "Amirul Aiman"
-        elif staff_id == 1030:
-            Sname = "Khoshim"
-        elif staff_id == 1002:
-            Sname = "Sharifah Aishah"
-        elif staff_id == 1027:
-            Sname = "Khairinah Izzah"
-        elif staff_id == 1016:
-            Sname = "Azmi"
-        elif staff_id == 1021:
-            Sname = "Asyira"
-        elif staff_id == 1039:
-            Sname = "Aimi Khalidah"
-        elif staff_id == 1034:
-            Sname = "Mohammad Zulkhairi"
+            Sname = "Test2"
         else:
             Sname = "New staff, please register"
         return Sname
