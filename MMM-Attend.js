@@ -1,4 +1,3 @@
-
 Module.register("MMM-Attend",{
 	// Default module config.
 	defaults: {

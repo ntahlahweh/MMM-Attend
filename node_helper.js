@@ -1,8 +1,8 @@
-/// node_helper.js
 const spawn = require("child_process").spawn
 var NodeHelper = require("node_helper")
 var process = spawn("python", ["/home/pi/MagicMirror/modules/MMM-Attend/attendance.py"])
 var interval = 1000
+//require('events').EventEmitter.defaultMaxListeners = 0;  //to remove maxeventhandler warning
 module.exports = NodeHelper.create({
   
   socketNotificationReceived: function(notification, payload) {
@@ -23,4 +23,3 @@ module.exports = NodeHelper.create({
 
   }
 })
-
