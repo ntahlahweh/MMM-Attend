@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Roboto-Light;
+  font-style: thin;
+  font-weight: 100;
+  src:
+    local("Roboto"),
+    url("Roboto-Light.woff") format("woff");
+}
+
+.MMM-Attend {
+  font-size: 70px;
+  font-family: Roboto-Light;
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+}
